@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    //ejemplo de uso de encabezado en java script
+    alert('Hola, vamos a modificar un parrafo');
+    //alert es para crear un mensaje en la parte superior de la pagnina
+    function ejemplofunction(){
+        document.getElementById("demo").innerHTML = "Parrafo Modificado"
+    }
+    function ej2(){
+    document.getElementById('demo2').innerHTML = 
+    "BIENVENIDA FILIPA A LA CLASE DE PROGRAMACION";
+}
+</script>
+<body>
+    <h2>js01 ejemplo de funcion de alerta</h2>
+    <button type="button" onclick="ejemplofunction()">Click</button>
+    <p id="demo">parrafo inicial</p>
+    <p>Hola filipa</p>
+    <p id="demo2"></p>
+    <button type="button" onclick="ej2()">Click</button>
+</body>
+</html>
